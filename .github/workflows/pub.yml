@@ -13,6 +13,7 @@ jobs:
         run: |
           mkdir build
           echo haha > build/test.html
+          echo date >> build/test.html
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.5.9
